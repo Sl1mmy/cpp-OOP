@@ -1,0 +1,3 @@
+﻿  terrain.cpp
+D:\cpp-OOP\cpp-OOP\terrain.cpp(24,14): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  cpp-OOP.vcxproj -> D:\cpp-OOP\cpp-OOP\x64\Debug\cpp-OOP.exe

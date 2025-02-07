@@ -1,9 +1,10 @@
-#include "utilities.h"
-#include "terrain.h"
-#include "draw.h"
+#include "header/utilities.h"
+#include "header/terrain.h"
+#include "header/draw.h"
 
-#include <iomanip>
-#include <conio.h>
+#include <iostream>
+
+using std::cin;
 
 int main() {
 	
@@ -26,6 +27,6 @@ int main() {
 	draw.drawRectangle(11, 11, 10, 5);
 
 
-	_getch();
+	cin.get(); // to keep console open
 	return 0;
 }

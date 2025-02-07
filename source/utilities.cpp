@@ -1,5 +1,6 @@
+#include "../header/utilities.h"
+
 #include <iostream>
-#include "utilities.h"
 
 using std::cout;
 using std::cin;

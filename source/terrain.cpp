@@ -1,6 +1,9 @@
-#include "terrain.h"
+#include "../header/terrain.h"
+
 #include <iostream>
 #include <iomanip>
+
+using std::cout;
 
 Terrain::Terrain(int width, int length) {
 	this->width = width;
@@ -29,5 +32,5 @@ float Terrain::getPrice() {
 }
 
 void Terrain::printInfos() {
-	std::cout << "Width: " << width << 'm' << " | Length: " << length << 'm' << " | Price: " << getPrice() << "$\n";
+	cout << "Width: " << width << 'm' << " | Length: " << length << 'm' << " | Price: " << getPrice() << "$\n";
 }

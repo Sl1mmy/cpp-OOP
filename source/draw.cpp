@@ -1,7 +1,10 @@
-#include "draw.h"
+#include "../header/draw.h"
 
 //#include <Windows.h>
 #include <iostream>
+
+using std::cout;
+using std::string;
 
 
 Draw::Draw(char character) {
@@ -25,15 +28,15 @@ void Draw::drawPoint(int x, int y) {
 void Draw::drawRectangle(int x, int y, int width, int height) {
 	gotoxy(x, y);
 
-	std::cout << std::string(width, character);
+	std::cout << string(width, character);
 
 	for (int i = 1; i < height - 1; i++) {
 		gotoxy(x, y + i);
-		std::cout << '#';
+		cout << '#';
 		gotoxy(x + width - 1, y + i);
-		std::cout << '#';
+		cout << '#';
 	}
 
 	gotoxy(x, y + height - 1);
-	std::cout << std::string(width, character);
+	cout << string(width, character);
 }

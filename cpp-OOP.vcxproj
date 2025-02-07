@@ -127,15 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="draw.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="terrain.cpp" />
-    <ClCompile Include="utilities.cpp" />
+    <ClCompile Include="source\draw.cpp" />
+    <ClCompile Include="source\terrain.cpp" />
+    <ClCompile Include="source\utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="draw.h" />
-    <ClInclude Include="terrain.h" />
-    <ClInclude Include="utilities.h" />
+    <ClInclude Include="header\draw.h" />
+    <ClInclude Include="header\terrain.h" />
+    <ClInclude Include="header\utilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

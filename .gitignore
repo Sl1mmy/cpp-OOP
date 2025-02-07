@@ -1,34 +1,39 @@
-# Prerequisites
-*.d
+# Ignore build directories in all subfolders
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Ignore Visual Studio and compiler-generated files
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
 *.obj
+*.ilk
+*.pdb
+*.idb
+*.ipch
+*.tlog
+*.lastbuildstate
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore CMake build directories (if applicable)
+CMakeCache.txt
+CMakeFiles/
+build/
+CMakeLists.txt.user
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Ignore executable and temporary files
 *.exe
-*.out
-*.app
-
-.vs
+*.dll
+*.lib
+*.exp
+*.manifest
+*.tmp
+*.log
+*.ncb
+*.opendb
+*.lock

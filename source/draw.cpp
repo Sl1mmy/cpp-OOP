@@ -32,9 +32,9 @@ void Draw::drawRectangle(int x, int y, int width, int height) {
 
 	for (int i = 1; i < height - 1; i++) {
 		gotoxy(x, y + i);
-		cout << '#';
+		cout << character;
 		gotoxy(x + width - 1, y + i);
-		cout << '#';
+		cout << character;
 	}
 
 	gotoxy(x, y + height - 1);

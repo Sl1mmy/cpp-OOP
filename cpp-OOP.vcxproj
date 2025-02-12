@@ -129,11 +129,17 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="source\draw.cpp" />
+    <ClCompile Include="source\point.cpp" />
+    <ClCompile Include="source\rectangle.cpp" />
+    <ClCompile Include="source\shape.cpp" />
     <ClCompile Include="source\terrain.cpp" />
     <ClCompile Include="source\utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\draw.h" />
+    <ClInclude Include="header\point.h" />
+    <ClInclude Include="header\rectangle.h" />
+    <ClInclude Include="header\shape.h" />
     <ClInclude Include="header\terrain.h" />
     <ClInclude Include="header\utilities.h" />
   </ItemGroup>

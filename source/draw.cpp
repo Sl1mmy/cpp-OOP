@@ -2,9 +2,11 @@
 
 //#include <Windows.h>
 #include <iostream>
+#include <sstream>
 
 using std::cout;
 using std::string;
+using std::ostringstream;
 
 
 Draw::Draw(char character) {
@@ -36,7 +38,7 @@ void Draw::drawRectangle(int x, int y, int width, int height) {
 		gotoxy(x + width - 1, y + i);
 		cout << character;
 	}
-
+	
 	gotoxy(x, y + height - 1);
 	cout << string(width, character);
 }
